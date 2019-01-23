@@ -80,7 +80,7 @@ The two methods you must provide are:
   (Interesting and important note for job seekers: assuming you get two weeks' off during the 
   year, there are 50 weeks * 40 hours/week, or 2000 working hours in a given calendar year.)
 
-* `raise`, which should bump the amount of the Salary or the Hourly by the given percentage.
+* `raise`, which should bump the amount of the Salary or the Hourly by the given amount.
 
 All of the Job tests are in JobTests.swift, if you want to see what's tested.
 
