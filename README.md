@@ -40,6 +40,9 @@ Your domain model is going to represent a rather simple domain: real life. At le
 jobs, people and family parts of real life. (OK, so not really life, but a vast oversimplification
 of it. Such is what we do in programming.)
 
+***NOTE:*** Where the tests might disagree with the spec written below, the tests win! (In other
+words, your goal is to make the tests pass, regardless of what the spec says.)
+
 ### Money
 To start, you will need to create a Money type (a struct). It will need two properties, `amount`
 and `currency`, since money is different in different cultures. (We will be ignoring fractional
